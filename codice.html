@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--<script src="https://cdn.i18next.com/i18next.min.js"></script>-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#date-location">Date & Location</a></li>
+                <li><a href="#program">WEDDING ITINERARY</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+
+<!--
+                <li><a href="#home" data-i18n="home">Home</a></li>
+                <li><a href="#date-location" data-i18n="date-location">Date & Location</a></li>
+                <li><a href="#program" data-i18n="program">Wedding Itinerary</a></li>
+                <li><a href="#rsvp" data-i18n="rsvp">RSVP</a></li>
+                <li><a href="#faq" data-i18n="faq">FAQ</a></li>
+                <li><a href="#contact" data-i18n="contact">Contact Us</a></li>-->
+
+
+                 <!-- Language Selector -
+                <li class="language-selector">
+                    <select id="language-select" onchange="changeLanguage()">
+                        <option value="en">English</option>
+                        <option value="ur">Urdu</option>
+                    </select>
+                </li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="home" class="welcome">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="fade-in">A Day to Remember</h1>
+                <p class="fade-in delay-1">An unforgettable event, with you.</p>
+                <p class="fade-in delay-1">Join us in celebrating this special day.</p>
+                <br><p class="fade-in delay-3"><strong>Date:</strong> Sunday, December 22, 2024</p>
+                <p class="fade-in delay-4"><strong>Location:</strong> Empire Marquee, Islamabad</p>
+                <br><br><a href="#rsvp" class="cta-button fade-in delay-5">RSVP Now</a>
+ 
+            </div>
+        </div>
+    </section>
+
+    <!-- Date & Location Section -->
+    <section id="date-location" class="date-location">
+        <div class="container">
+            <h2 class="fade-in">Date & Location</h2>
+            <p><strong>Date:</strong> Sunday, December 22, 2024</p>
+            <p><strong>Wedding Venue:</strong> Empire Marquee Islamabad</p>
+            <p><strong>Address:</strong> Islamabad Expy، behind PSO Pump, Nawaz, Islamabad</p>
+
+            <!-- Google Map Embed -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.4747737950756!2d73.1076388!3d33.644858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfc080c9a565bb%3A0xbfbafb846a828cb2!2sEmpire%20Marquee%20Islamabad!5e0!3m2!1sit!2sit!4v1731837581383!5m2!1sit!2sit" 
+                    width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+    </section>
+
+    <!-- Wedding Itinerary Section -->
+    <section id="program" class="program">
+        <div class="container">
+            <h2 class="fade-in">Wedding Day Itinerary</h2>
+            <ul class="fade-in delay-1">
+                <li><strong>12:30:</strong> Ceremony</li>
+                <li><strong>13:30:</strong> Welcome Reception</li>
+                <li><strong>14:30:</strong> Dinner and Reception</li>
+                <li><strong>17:00:</strong> Party</li>
+               <!-- <li><strong>Midnight:</strong> Farewell to the couple</li>-->
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- RSVP Section -->
+<!--
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <h2 class="fade-in">Confirm your attendance</h2>
+            <p class="fade-in delay-1">We are thrilled to celebrate this special day with you! Please confirm your attendance.</p>
+
+            <!-- RSVP Form with validation 
+            <form id="rsvp-form" action="submit_rsvp.php" method="POST" class="rsvp-form fade-in delay-2">
+                <label for="full-name">Name and Surname:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" placeholder="Number of people" required>
+
+                <label for="special-requests">Special Requests:</label>
+                <textarea id="special-requests" name="special-requests" placeholder="Any requests (e.g., dietary needs)"></textarea>
+
+                <label for="attend">Will you be attending?</label>
+                <select id="attend" name="attend" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+
+                <button type="submit" class="cta-button">Confirm your attendance</button>
+            </form>
+        </div>
+    </section>-->
+
+    <!-- RSVP Section -->
+<section id="rsvp" class="rsvp">
+    <div class="container">
+        <h2 class="fade-in">Confirm your attendance</h2>
+        <p class="fade-in delay-1">We are thrilled to celebrate this special day with you! Please confirm your attendance.</p>
+
+        <!-- RSVP Form with validation -->
+        <form id="rsvp-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfBg3tgbGWsoZF_n5yr0dam5K4S0LUq6xS7cPhfe_3PpvyrwQ/formResponse" method="POST" class="rsvp-form fade-in delay-2">
+            <label for="full-name">Name and Surname:</label>
+            <input type="text" id="full-name" name="entry.26394796" placeholder="Enter your name" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="entry.955073971" placeholder="Number of people">
+
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="entry.1169862657" placeholder="Any requests (e.g., dietary needs)"></textarea>
+
+            <label for="attend">Will you be attending?</label>
+            <select id="attend" name="entry.2124025212" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <button type="submit" class="submit-btn">Confirm your attendance</button>
+
+
+
+            <div id="confirmation-message" style="display:none;">Thank you for your response!</div>
+            <button id="back-btn" style="display:none;" onclick="window.location.href = '/';">Go Back to Homepage</button>
+
+                    <!-- Button to go back to homepage -->
+        <button id="back-btn" style="display: none;" onclick="window.location.href='index.html';">Go to Homepage</button>
+
+                <!-- Confirmation Message -->
+            <div id="confirmation-message" style="display: none;">
+                <h3>Thank you for your RSVP!</h3>
+                <p>Your response has been recorded.</p>
+                <button onclick="window.location.href='/'" class="cta-button">Return to Homepage</button>
+            </div>
+
+
+        </form>
+
+
+                <!-- Messaggio di conferma 
+        <div id="confirmation-message" style="display: none;">
+            <h2>Thank you for confirming your attendance!</h2>
+        </div>
+
+        <!-- Pulsante per tornare alla homepage
+        <button id="back-btn" style="display: none;" onclick="window.location.href='codice.html';">Go to Homepage</button>
+ -->
+    </div>
+</section>
+
+    
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="fade-in">Frequently Asked Questions</h2>
+            <ul class="fade-in delay-1">
+                <li>
+                    <strong>Can I bring a plus one?</strong>
+                    <p>Absolutely! If you would like to bring a guest, please indicate the number in the RSVP section.</p>
+                </li>
+                <li>
+                    <strong>What is the dress code?</strong>
+                    <p>We would love to see everyone dressed elegantly, feel free to dress in any way, within the limits we must respect.<br> Because remember that we are Muslims.</p>
+                </li>
+
+                <li>
+                    <strong>Are there options for guests with food allergies?</strong>
+                    <p>We will accommodate all special requests, as indicated in the RSVP section. Please make sure to notify us in advance.</p>
+                </li>
+                <li>
+                    <strong>How do I get to the venue?</strong>
+                    <p>The venue is easily accessible by public transport or by car. You can check the map in the Date & Location section.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="fade-in">Contact Us</h2>
+            <p class="fade-in delay-1">Have any questions or requests? We are here to help!</p>
+
+            <form action="submit_contact.php" method="POST" class="contact-form fade-in delay-2">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zakra Mehmood.All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+</html>

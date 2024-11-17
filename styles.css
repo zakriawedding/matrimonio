@@ -1,0 +1,1212 @@
+section {
+    position: relative;
+    padding: 100px 0;
+    background: url('https://example.com/your-image.jpg') center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+section h2 {
+    position: relative;
+    z-index: 10;
+}
+
+
+section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Bordi sottili per separare le sezioni */
+}
+
+
+/* Reset di base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Navbar */
+header {
+    background-color: #000;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);  /* Colore di default del menù */
+    padding: 10px 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f5a623; /* Colore dorato al passaggio del mouse */
+}
+
+header.sticky {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Ombra leggera per il menù sticky */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.5s ease-in-out; /* Aggiungi una transizione morbida */
+}
+
+header.sticky {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombra leggera */
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra sottile */
+}
+
+header.scrolled {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombra più intensa quando si scorre */
+}
+
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #f5c6cb; /* Colore morbido per l'hover */
+    text-decoration: none;
+}
+
+nav ul li a:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #f5c6cb; /* Colore per la sottolineatura */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+header {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+
+header {
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+
+header {
+    transition: top 0.3s ease, background-color 0.5s ease;
+}
+
+header.scrolled {
+    top: -10px; /* Effetto di movimento */
+    background-color: rgba(0, 0, 0, 0.8); /* Colore di sfondo scuro quando si scorre */
+}
+
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px); /* Leggero movimento verso l'alto quando scorre */
+}
+
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e6a86f;
+}
+
+
+
+
+nav ul li a {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}   
+
+
+
+
+nav ul li a {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #f5c6cb;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+nav ul li a:hover {
+    color: #f5c6cb;
+    text-decoration: none;
+}
+
+nav ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.logo {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+header.scrolled .logo {
+    transform: scale(1.1); /* Aumenta il logo leggermente */
+    opacity: 0.9; /* Leggera opacità per il logo */
+}
+
+
+
+nav ul li a {
+    font-family: 'Playfair Display', serif; /* Serif elegante per i link */
+    font-weight: 500; /* Carattere più sottile per eleganza */
+    letter-spacing: 2px; /* Spaziatura tra le lettere */
+    color: #fff;
+    padding: 14px 22px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f5c6cb;
+    text-decoration: none;
+}
+
+header {
+    font-family: 'Lato', sans-serif; /* Sans-serif per il corpo del menù */
+    font-weight: 400;
+}
+
+
+
+header {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header.scrolled {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    filter: blur(8px);
+    opacity: 0.6;
+}
+
+
+
+header {
+    transition: transform 0.3s ease;
+}
+
+header.hide {
+    transform: translateY(-100%);
+}
+
+
+
+header {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3); /* Overlay trasparente scuro */
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Sovrapposizione semi-trasparente */
+    z-index: -1; /* Posiziona sotto il contenuto del menù */
+}
+
+
+
+
+
+
+
+
+/* Animazioni al caricamento */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.delay-1 {
+    transition-delay: 0.3s;
+}
+
+.delay-2 {
+    transition-delay: 0.6s;
+}
+
+
+
+
+
+
+.language-selector select {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+.language-selector select:focus {
+    outline: none;
+}
+
+
+
+
+
+
+/* Sezione Welcome */
+.welcome {
+   /* background: url('https://img.freepik.com/foto-premium/un-bokeh-dorato-con-luci-sfocate-in-calde-tonalita-dorate_143463-896.jpg') no-repeat center center/cover;*/
+    background: url('https://www.katebackdrop.com/cdn/shop/files/BH1047148DValentine_sDayPinkFlowerDoor.jpg?v=1695347361') no-repeat center center/cover;
+    /*
+    background: url('https://images.pexels.com/photos/2306286/pexels-photo-2306286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+    */
+
+    background: url('https://images.pexels.com/photos/7856735/pexels-photo-7856735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+    
+
+    /*background: url('https://png.pngtree.com/thumb_back/fw800/background/20240321/pngtree-rose-garden-reverie-vibrant-blooms-in-a-dreamy-blur-image_15645944.jpg') no-repeat center center/cover;
+    */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.welcome .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.welcome h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #f5e1a4;
+    z-index: 2;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.welcome p {
+    font-size: 1.5rem;
+    color: #f5e1a4;
+    z-index: 2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+/* Sezione Date & Location */
+.date-location {
+    /*background: url('https://thumbs.dreamstime.com/b/minimalist-image-red-location-pin-topographic-map-map-features-winding-road-background-subtle-textured-323309375.jpg') no-repeat center center/cover;*/
+    /*background: url('https://img.freepik.com/foto-premium/un-matrimonio-con-fiori-e-una-candela-al-centro_662214-88281.jpg') no-repeat center center/cover;
+    */
+    background: url('https://st.depositphotos.com/10614052/51405/i/450/depositphotos_514050866-stock-photo-beautiful-wedding-bouquet-restaurant-closeup.jpg') no-repeat center center/cover;
+    
+    padding: 60px 0;
+    color: #000000; /* Bronzo scuro */
+    text-align: center;
+}
+
+.date-location h2 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #000000; /* Bronzo scuro */
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#date-location {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(245, 245, 245, 0.8));
+}
+
+#date-location {
+   /* background: url('https://img.freepik.com/foto-premium/un-matrimonio-con-fiori-e-una-candela-al-centro_662214-88281.jpg') no-repeat center center;
+    */
+    /*
+    background: url('https://img.freepik.com/premium-photo/wedding-decoration-with-lights-blurred-background_960298-1406.jpg') no-repeat center center/cover;
+    */
+
+    background: url('https://images.pexels.com/photos/2306286/pexels-photo-2306286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+    
+    background-size: cover;
+    position: relative;
+}
+*/
+
+#date-location::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Overlay scuro */
+}
+
+.container {
+    position: relative;
+    z-index: 1; /* Assicurati che il contenuto sia visibile sopra l'overlay */
+}
+
+
+.date-location p {
+    font-size: 1.2rem;
+    color: #000000; /* Bronzo scuro */
+    margin-bottom: 10px;
+}
+.date-location strong {
+    font-weight: bold;
+    color: #000000; /* Bronzo scuro */
+}
+
+
+/* Sezione Programma */
+.program {
+    background: url('https://img.freepik.com/foto-premium/design-della-superficie-di-sfondo-con-texture-in-marmo-bianco-e-oro-lusso-moderno-ed-elegante-ia-generativa_839016-455.jpg') no-repeat center center/cover;
+    padding: 60px 0;
+    color: #4A4A4A; /* Grigio scuro per un contrasto elegante */
+    text-align: center;
+}
+
+.program h2 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #6B4F30; /* Marrone chiaro */
+}
+
+.program li {
+    font-size: 1.2rem;
+    color: #6B4F30; /* Marrone chiaro */
+}
+
+/* Sezione RSVP (migliorata) */
+.rsvp {
+    background-color: #f7f5f0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.rsvp h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.rsvp p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.rsvp-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.rsvp-form input,
+.rsvp-form textarea,
+.rsvp-form select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1.1rem;
+    transition: border-color 0.3s ease;
+}
+
+.rsvp-form input:focus,
+.rsvp-form textarea:focus,
+.rsvp-form select:focus {
+    border-color: #e6a86f;
+    outline: none;
+}
+
+
+
+
+
+.cta-button {
+    background-color: #f5e1a4; /* Un colore caldo, elegante come un marrone dorato */
+    color: #37a89e; /* Testo bianco per un buon contrasto */
+    font-size: 1.5rem; /* Aumenta la dimensione del testo */
+    padding: 10px 10px; /* Rende il pulsante più grande */
+    border: none;
+    border-radius: 30px; /* Arrotonda gli angoli */
+    text-transform: uppercase; /* Rende il testo maiuscolo per maggiore impatto */
+    cursor: pointer; /* Cambia il cursore per dare un'indicazione visiva */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra morbida */
+    transition: all 0.3s ease; /* Aggiunge un'animazione per rendere il pulsante interattivo */
+}
+
+.cta-button:hover {
+    background-color: #e9f812; /* Un colore più chiaro al passaggio del mouse */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Ombra più forte al passaggio del mouse */
+}
+
+.cta-button:focus {
+    outline: none;
+    box-shadow: 0 0 10px 2px rgba(156, 139, 122, 0.6); /* Evidenza quando è selezionato */
+}
+
+
+.cta-button {
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.1); /* Ingrandisce il pulsante al passaggio del mouse */
+}
+
+
+
+
+
+
+
+.rsvp-form button {
+    background-color: #e6a86f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rsvp-form button:hover {
+    background-color: #d88e5b;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+#rsvp {
+    position: relative;
+    padding: 60px 0;
+   /* background-image: url('https://img.freepik.com/foto-premium/design-della-superficie-di-sfondo-con-texture-in-marmo-bianco-e-oro-lusso-moderno-ed-elegante-ia-generativa_839016-455.jpg'); /* Inserisci il link dell'immagine di sfondo elegante */
+    
+    background-image: url('https://img.freepik.com/foto-premium/sfondo-grigio-astratto_894423-802.jpg'); /* Inserisci il link dell'immagine di sfondo elegante */
+    background-size: cover; /* L'immagine copre tutta la sezione */
+    background-position: center center; /* Posizionamento centrale dell'immagine */
+    color: #fff; /* Colore del testo per contrasto */
+    text-align: center;
+    z-index: 1;
+}
+
+/* Overlay semi-trasparente sopra l'immagine */
+#rsvp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Overlay scuro per migliorare la leggibilità */
+    z-index: -1;
+}
+
+/* Stile per il titolo e il testo */
+#rsvp h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #f5f5f5; /* Testo chiaro per il titolo */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#rsvp p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Form di RSVP */
+#rsvp-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Sfondo bianco semitrasparente per il form */
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ombra leggera per far risaltare il form */
+}
+
+/* Etichette e input del form */
+#rsvp-form label {
+    font-family: 'Lato', sans-serif;
+    color: #333; /* Colore scuro per le etichette */
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#rsvp-form input,
+#rsvp-form textarea,
+#rsvp-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+/*
+#rsvp-form input[type="number"] {
+    -moz-appearance: textfield;
+}*/
+
+#rsvp-form button {
+    background-color: #d4af37; /* Oro brillante */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#rsvp-form button:hover {
+    background-color: #b28727; /* Oro scuro per hover */
+}
+
+
+
+/* Sezione con sfondo immagine e gradiente */
+#rsvp {
+    position: relative;
+    padding: 60px 0;
+    background-image: url('https://img.freepik.com/foto-premium/sfondo-grigio-astratto_894423-802.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+
+/* Animazione fade-in */
+section {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* Overlay tra le sezioni */
+section {
+    position: relative;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Lunghezza dell'overlay */
+    background: rgba(0, 0, 0, 0.3); /* Overlay scuro per separare le sezioni */
+    z-index: 10;
+}
+
+
+
+
+
+
+
+/* Sezione FAQ - Aggiornata e Elegante */
+.faq {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.faq h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faq ul li {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.faq ul li:hover {
+    background-color: #e6e6e6;
+}
+
+.faq ul li strong {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.faq ul li p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+#faq {
+    position: relative;
+    padding: 60px 0;
+    background-image: url('https://img.freepik.com/foto-premium/illustrazione-di-sfondo-texture-marmo-bianco-oro-di-lusso-ai-generativa_744955-1975.jpg'); /* Inserisci il link dell'immagine di sfondo elegante */
+    background-size: cover; /* L'immagine copre tutta la sezione */
+    background-position: center center; /* Posizionamento centrale dell'immagine */
+    color: #fff; /* Colore del testo per contrasto */
+    text-align: center;
+    z-index: 1;
+}
+
+/* Overlay semi-trasparente sopra l'immagine */
+#faq::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Overlay scuro per migliorare la leggibilità */
+    z-index: -1;
+}
+
+/* Stile per il titolo e i paragrafi */
+#faq h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #f5f5f5; /* Testo chiaro per il titolo */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#faq ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 800px; /* Contenuto centrato */
+    padding: 0;
+    list-style: none; /* Rimuove i punti elenco */
+}
+
+#faq li {
+    margin-bottom: 15px; /* Spaziatura tra le domande */
+}
+
+/* Per ogni domanda, un piccolo effetto hover */
+#faq li strong {
+    color: #d4af37; /* Oro brillante per le domande */
+    transition: color 0.3s ease;
+}
+
+#faq li strong:hover {
+    color: #b28727; /* Colore oro scuro al passaggio del mouse */
+}
+
+/* Pulsante CTA (opzionale, se ne vuoi uno) */
+#faq .cta-button {
+    background-color: #d4af37; /* Oro brillante */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#faq .cta-button:hover {
+    background-color: #b28727; /* Oro scuro per hover */
+}
+
+
+
+
+
+
+
+
+/* Sezione Contattateci */
+.contact {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1.1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #e6a86f;
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #e6a86f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    background-color: #d88e5b;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+#contact {
+    position: relative;
+    padding: 60px 0;
+    background-image: url('https://img.freepik.com/foto-premium/il-flusso-armonioso-dei-liquidi-crea-una-sinfonia-visiva-che-evoca-un-senso-di-grazia-e-bellezza-una-rappresentazione-perfetta-del-delicato-equilibrio-trovato-nei-movimenti-piu-affascinanti-della-natura_13364-10372.jpg'); /* Inserisci il link dell'immagine di sfondo elegante */
+    background-size: cover; /* L'immagine copre tutta la sezione */
+    background-position: center center; /* Posizionamento centrale dell'immagine */
+    color: #fff; /* Colore del testo per contrasto */
+    text-align: center;
+    z-index: 1;
+}
+
+/* Overlay semi-trasparente sopra l'immagine */
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Overlay scuro con opacità per migliorare la leggibilità */
+    z-index: -1;
+}
+
+/* Testo nella sezione */
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #f5f5f5; /* Testo chiaro */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Pulsante "Send Message" elegante */
+#contact .cta-button {
+    background-color: #d4af37; /* Oro brillante */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact .cta-button:hover {
+    background-color: #b28727; /* Oro scuro per hover */
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+footer p {
+    font-family: 'Playfair Display', serif; /* Font elegante */
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #bfa6a0; /* Colore neutro per un look elegante */
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    border-top: 1px solid #f5c6cb; /* Divider sottile sopra */
+    border-bottom: 1px solid #f5c6cb; /* Divider sottile sotto */
+    padding: 20px 0;
+}
+
+
+footer p {
+    color: #bfa6a0; /* Colore beige sofisticato */
+    font-size: 1.1rem;
+}
+
+
+footer p a {
+    text-decoration: none;
+    color: #bfa6a0;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #d4af37; /* Colore dorato per hover */
+}
+
+/**/
+footer {
+    background: linear-gradient(135deg, #f5c6cb 0%, #bfa6a0 100%);
+    padding: 20px 0;
+}
+
+footer p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Ombra sottile per il testo */
+}
+
+/**/
+
+
+footer {
+    background: linear-gradient(135deg, #f5c6cb 0%, #bfa6a0 100%);
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #d4af37; /* Colore dorato per hover */
+}
+
+footer p:before {
+    content: "© 2025 "; /* Aggiunge l'anno */
+    font-weight: 700;
+}
+
+footer p span {
+    font-style: italic;
+    color: #d4af37; /* Colore dorato per il nome della coppia */
+}
+
+
+footer {
+    background: linear-gradient(135deg, #f5c6cb 0%, #bfa6a0 100%);
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #d4af37; /* Colore dorato per hover */
+}
+
+footer p:before {
+    content: "© 2025 "; /* Aggiunge l'anno */
+    font-weight: 700;
+}
+
+footer p span {
+    font-style: italic;
+    color: #d4af37; /* Colore dorato per il nome della coppia */
+}
+
+
+
+footer {
+    background: #333333; /* Grigio scuro elegante */
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #f5f5f5; /* Testo chiaro su grigio scuro */
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.3);
+    animation: glitter 1.5s infinite linear; /* Aggiungi l'animazione */
+}
+
+/* Animazione scintillante */
+@keyframes glitter {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+    25% {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.7), 0 0 35px rgba(255, 255, 255, 0.5);
+    }
+    75% {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+}
