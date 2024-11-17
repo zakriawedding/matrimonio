@@ -203,7 +203,7 @@
         </div>
     </section>
 
-    <!-- Contact Us Section -->
+    <!-- Contact Us Section 
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="fade-in">Contact Us</h2>
@@ -222,7 +222,47 @@
                 <button type="submit" class="cta-button">Send Message</button>
             </form>
         </div>
-    </section>
+    </section>-->
+
+
+    <!-- Contact Us Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="fade-in">Contact Us</h2>
+        <p class="fade-in delay-1">Have any questions or requests? We are here to help!</p>
+
+       <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyeOTZxWU_5-9wvJT7MBsd8rXFDe_3J_kOknA9aEBUdsETxQ/viewform?embedded=true" 
+                width="640" 
+                height="674" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0">
+            Caricamento…
+        </iframe>-->
+
+             
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScyeOTZxWU_5-9wvJT7MBsd8rXFDe_3J_kOknA9aEBUdsETxQ/formResponse" method="POST" class="contact-form fade-in delay-2">
+            <!-- Name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="entry.123456" placeholder="Enter your name" required>
+
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="entry.654321" placeholder="Enter your email" required>
+
+            <!-- Message field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="entry.789012" placeholder="Write your message here" required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+
 
     <footer>
         <div class="container">
